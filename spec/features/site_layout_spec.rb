@@ -7,6 +7,7 @@ RSpec.feature "SiteLayouts", type: :feature do
     expect(page).to have_link "Help", href: help_path
     expect(page).to have_link "About", href: about_path
     expect(page).to have_link "Contact", href: contact_path
+    expect(page).to have_link "", href: signup_path
     # 演習
     # visit contact_path
     # expect(page).to have_title full_title("Contact") 
